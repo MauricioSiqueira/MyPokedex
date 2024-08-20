@@ -1,5 +1,4 @@
-﻿using System;
-namespace PokemonReviewApp.Dto
+﻿namespace PokemonReviewApp.Dto
 {
     public class CategoryDto
     {

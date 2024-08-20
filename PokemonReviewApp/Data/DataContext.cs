@@ -45,7 +45,7 @@ namespace PokemonReviewApp.Data
 
             modelBuilder.Entity<Pokemon>()
                     .Property(p => p.BirthDate)
-                    .HasColumnType("timestamp");
+                    .HasColumnType("timestamp with time zone");
         }
     }
 }
